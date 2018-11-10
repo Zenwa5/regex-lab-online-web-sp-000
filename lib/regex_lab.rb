@@ -27,5 +27,7 @@ end
 def valid_phone_number?(phone)
 if phone.match(/\d1234567890/)
   return true
+else
+  return false
 end
 end
